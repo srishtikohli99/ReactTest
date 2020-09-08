@@ -1,0 +1,59 @@
+.btnSave{
+    text-align: center;
+    background-color:#005fff;
+    color: white;
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+    box-shadow:0 0 0 1px #5bc0de inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #46b8da, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#5bc0de;
+
+}
+.btnSave:active:focus,
+.btnSave:focus:hover,
+.btnSave:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.phrase{
+    width: 50%;
+    padding: 15px 15px;
+    margin: 8px 35px;
+    box-sizing: border-box;
+    font-size: large;
+    border-color: #ededed;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.text{
+    width: 50%;
+    padding: 25px 35px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    font-size: large;
+    border-color: grey;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.btnShow{
+    text-align: center;
+    width: 30%;
+    padding: 3px 15px ;
+    margin: 8px 8px ;
+    box-sizing: border-box;
+    font-size: large;
+    border-color: grey;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: lightblue;
+    color: white;
+    position: absolute;
+    right: 20px;
+
+}
